@@ -21,7 +21,7 @@ public class Main {
         // Employees in JSON format
         printJsonEmployees(empList);
 
-        MonthlyUpcomingEnrollees(empList, plans);
+        MonthlyUpcomingEnrollees();
 
 
     }
@@ -39,7 +39,7 @@ public class Main {
         return "{\"employeeId\": \"" + employee.employeeId() + "\", \"firstName\": \"" + employee.firstName() + "\", \"lastName\": \"" + employee.lastName() + "\", \"employmentDate\": " + employee.employmentDate() + ", \"yearlySalary\": " + employee.yearlySalary() + "}";
     }
 
-    private static void MonthlyUpcomingEnrollees(Employee[] employees, PensionPlan[] plans){
+    private static void MonthlyUpcomingEnrollees(){
         System.out.println("Unable to understood 2nd the requirement !!!");
     }
 }
